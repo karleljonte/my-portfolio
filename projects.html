@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Skills, projects and services by Karl Njuguna.">
+    <title>Projects & Skills | Karl Njuguna</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+        <a href="index.html" class="logo">KN.</a>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html" aria-current="page">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section class="page-intro">
+        <p class="intro">What I'm learning and building</p>
+        <h1>Projects <span>& Skills</span></h1>
+        <p>Some of the technologies I'm learning and projects I've worked on as an Applied Computing student.</p>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="section-heading">
+            <p>My toolkit</p>
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-grid">
+            <article class="skill-card"><div class="skill-label"><h3>HTML</h3><span>Comfortable</span></div><div class="skill-track" role="img" aria-label="HTML proficiency: comfortable"><span style="width:75%"></span></div></article>
+            <article class="skill-card"><div class="skill-label"><h3>CSS</h3><span>Comfortable</span></div><div class="skill-track" role="img" aria-label="CSS proficiency: comfortable"><span style="width:70%"></span></div></article>
+            <article class="skill-card"><div class="skill-label"><h3>JavaScript</h3><span>Learning</span></div><div class="skill-track" role="img" aria-label="JavaScript proficiency: learning"><span style="width:45%"></span></div></article>
+            <article class="skill-card"><div class="skill-label"><h3>Python</h3><span>Learning</span></div><div class="skill-track" role="img" aria-label="Python proficiency: learning"><span style="width:50%"></span></div></article>
+            <article class="skill-card"><div class="skill-label"><h3>Kotlin / Android</h3><span>Learning</span></div><div class="skill-track" role="img" aria-label="Kotlin and Android proficiency: learning"><span style="width:40%"></span></div></article>
+            <article class="skill-card"><div class="skill-label"><h3>React</h3><span>Learning</span></div><div class="skill-track" role="img" aria-label="React proficiency: learning"><span style="width:45%"></span></div></article>
+        </div>
+        <p class="skills-note">Proficiency labels are self-assessments and will change as I gain experience.</p>
+    </section>
+
+    <section class="projects" id="projects-page">
+        <div class="section-heading">
+            <p>Selected work</p>
+            <h2>My Projects</h2>
+        </div>
+        <div class="filter-controls" role="group" aria-label="Filter projects by category">
+            <button class="filter-btn active" type="button" data-filter="all" aria-pressed="true">All</button>
+            <button class="filter-btn" type="button" data-filter="android" aria-pressed="false">Android</button>
+            <button class="filter-btn" type="button" data-filter="web" aria-pressed="false">Web</button>
+            <button class="filter-btn" type="button" data-filter="python" aria-pressed="false">Python</button>
+        </div>
+        <div class="projects-container" id="portfolio-projects">
+            <article class="project-card" data-category="android">
+                <div class="project-placeholder" aria-hidden="true">LOCK IN</div>
+                <div class="project-info"><h3>LOCK IN</h3><p>An Android productivity app designed to help users manage tasks and build focused routines.</p><p class="tech-list"><strong>Technologies:</strong> Kotlin, Android XML, SharedPreferences</p><a href="https://github.com/karleljonte" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div>
+            </article>
+            <article class="project-card" data-category="web">
+                <div class="project-placeholder" aria-hidden="true">MY BLOG</div>
+                <div class="project-info"><h3>My Blog</h3><p>A full-stack blogging website concept for exploring posts and creating or managing content.</p><p class="tech-list"><strong>Technologies:</strong> React, Flask, MySQL</p><a href="https://github.com/karleljonte" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div>
+            </article>
+            <article class="project-card" data-category="python">
+                <div class="project-placeholder" aria-hidden="true">HEALTHBOT</div>
+                <div class="project-info"><h3>HealthBot</h3><p>A Python and Flask project exploring health-related data and chatbot functionality.</p><p class="tech-list"><strong>Technologies:</strong> Python, Flask, Pandas, CSV</p><a href="https://github.com/karleljonte" target="_blank" rel="noopener noreferrer">GitHub profile ↗</a></div>
+            </article>
+        </div>
+        <p class="github-note">The links above open my GitHub profile for now. Replace them with each project's repository URL when available.</p>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="section-heading"><p>How I can help</p><h2>Services</h2></div>
+        <div class="services-grid">
+            <article class="service-card"><h3>Basic Website Design</h3><p>Simple, responsive portfolio or information websites using HTML and CSS.</p></article>
+            <article class="service-card"><h3>Website Updates</h3><p>Help with small content, layout and styling updates to existing pages.</p></article>
+            <article class="service-card"><h3>Beginner Tech Support</h3><p>Basic help with setting up development tools and learning introductory web concepts.</p></article>
+        </div>
+        <p class="skills-note">These are beginner-level services that reflect my current learning stage.</p>
+    </section>
+
+    <section class="github-section" id="github-repositories">
+        <div class="section-heading"><p>Live from GitHub</p><h2>Public Repositories</h2></div>
+        <div class="projects-container" id="github-projects"><p>Loading public repositories...</p></div>
+    </section>
+    <section class="contact-cta"><h2>Want to get in touch?</h2><p>Visit my contact form and send me a message.</p><a class="btn" href="index.html#contact">Contact Me</a></section>
+</main>
+<footer class="site-footer"><p>&copy; 2026 Karl Njuguna. All rights reserved.</p></footer>
+</body>
+</html>
